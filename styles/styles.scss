@@ -34,6 +34,10 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     li {
+      max-width: 400px;
+      border: 1px black solid;
+      padding: 10px 30px;
+      border-radius: 10px;
       .project_title {
         display: flex;
         justify-content: space-between;
