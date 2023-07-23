@@ -6,3 +6,4 @@ const scroll_up_btn = document.getElementsByClassName("scroll-up-btn")[0]
 scroll_up_btn.addEventListener("click", ()=>{
     window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
 })
+const skill_section = document.getElementById("skills")
