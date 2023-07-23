@@ -97,7 +97,7 @@ section#projects > ul {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 section#projects > ul li {
-  max-width: 400px;
+  max-width: 450px;
   border: 1px black solid;
   padding: 10px 30px;
   border-radius: 10px;
@@ -105,9 +105,10 @@ section#projects > ul li {
 section#projects > ul li .project_title {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0.5em;
 }
-section#projects > ul li .project_title .github_link {
-  font-size: 0.9em;
+section#projects > ul li .project_title h3 {
+  font-size: 1.5em;
 }
 section#projects > ul li .project_title .github_link:hover {
   border-bottom: 1px solid black;
