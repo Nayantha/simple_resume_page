@@ -114,5 +114,8 @@ section#projects > ul li .project_title {
 section#projects > ul li .project_title .github_link {
   font-size: 0.9em;
 }
+section#projects > ul li .project_title .github_link:hover {
+  border-bottom: 1px solid black;
+}
 
 /*# sourceMappingURL=styles.css.map */
