@@ -63,11 +63,6 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-:focus {
-  outline: 3px solid #16e0bd;
-  outline-offset: 3px;
-}
-
 .profile-pic img {
   height: 300px;
 }
