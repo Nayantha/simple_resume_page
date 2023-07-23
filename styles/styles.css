@@ -90,5 +90,12 @@ section#skills .skill-title::before {
   top: 150%;
   margin: auto;
 }
+section#skills ul {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+section#skills ul li {
+  list-style: initial;
+}
 
 /*# sourceMappingURL=styles.css.map */

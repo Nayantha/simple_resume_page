@@ -22,5 +22,12 @@ section {
         margin: auto;
       }
     }
+    ul {
+      padding-top: 1em;
+      padding-left: 1em;
+      li {
+        list-style: initial;
+      }
+    }
   }
 }
