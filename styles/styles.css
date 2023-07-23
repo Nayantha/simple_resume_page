@@ -76,6 +76,7 @@ header ul li a {
 
 section#education {
   background-color: black;
+  color: white;
 }
 section#skills {
   display: grid;
