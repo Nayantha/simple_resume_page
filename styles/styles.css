@@ -67,6 +67,10 @@ h3 {
   height: 300px;
 }
 
+header {
+  background-color: black;
+}
+
 section#education {
   background-color: black;
 }
