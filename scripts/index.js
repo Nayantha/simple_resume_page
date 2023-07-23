@@ -1,1 +1,1 @@
-const scroll_down_btn = document.getElementsByClassName("scroll-down-btn")
+const scroll_down_btn = document.getElementsByClassName("scroll-down-btn")[0]
