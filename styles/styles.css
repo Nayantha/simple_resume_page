@@ -67,6 +67,9 @@ h3 {
   height: 300px;
 }
 
+section#education {
+  background-color: black;
+}
 section#skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
