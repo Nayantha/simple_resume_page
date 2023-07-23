@@ -101,7 +101,11 @@ section#projects > ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-section#projects > ul .github_link {
+section#projects > ul li .project_title {
+  display: flex;
+  justify-content: space-between;
+}
+section#projects > ul li .project_title .github_link {
   font-size: 0.9em;
 }
 
