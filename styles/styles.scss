@@ -4,3 +4,12 @@
     height: 300px;
   }
 }
+section {
+  &#skills {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    text-align: center;
+  }
+}
