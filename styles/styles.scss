@@ -1,23 +1,39 @@
 @import "reset";
+
 .profile-pic {
   img {
     height: 300px;
   }
 }
+
 header {
   background-color: black;
+
+  ul {
+    li {
+      a {
+        color: white
+      }
+    }
+  }
 }
+
 section {
-  &#bio{}
-  &#education{
+  &#bio {
+  }
+
+  &#education {
     background-color: black;
   }
+
   &#skills {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2em;
+
     .skill-title {
       position: relative;
+
       &::before {
         position: absolute;
         content: "";
@@ -29,40 +45,50 @@ section {
         margin: auto;
       }
     }
+
     ul {
       padding-top: 1em;
       padding-left: 1em;
+
       li {
         list-style: initial;
       }
     }
   }
-  &#projects{
+
+  &#projects {
     background-color: black;
-    ul{
+
+    ul {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
       li {
         max-width: 450px;
         border: 1px black solid;
         padding: 10px 30px;
         border-radius: 10px;
+
         .project_title {
           h3 {
             font-size: 1.5em;
           }
+
           display: flex;
           justify-content: space-between;
           padding-bottom: 0.5em;
-          .github_link{
+
+          .github_link {
             &:hover {
               border-bottom: 1px solid black;
             }
           }
         }
+
         .languages {
           ul {
             display: flex;
+
             li {
               border: none;
               padding: 0 15px;

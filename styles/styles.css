@@ -70,6 +70,9 @@ h3 {
 header {
   background-color: black;
 }
+header ul li a {
+  color: white;
+}
 
 section#education {
   background-color: black;
