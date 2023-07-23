@@ -51,6 +51,15 @@ section {
           }
         }
       }
+      .languages {
+        ul {
+          display: flex;
+          li {
+            border: none;
+            padding: 0 15px;
+          }
+        }
+      }
     }
   }
 }
