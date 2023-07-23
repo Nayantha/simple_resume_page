@@ -49,8 +49,3 @@ h2 {
 h3 {
   font-size: var(--fs-h3);
 }
-
-:focus {
-  outline: 3px solid $clr-accent;
-  outline-offset: 3px;
-}
