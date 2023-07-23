@@ -116,7 +116,7 @@ section#projects ul {
 }
 section#projects ul li {
   max-width: 450px;
-  border: 1px black solid;
+  border: 1px white solid;
   padding: 10px 30px;
   border-radius: 10px;
 }
