@@ -74,10 +74,8 @@ h3 {
 
 section#skills {
   display: grid;
-  width: min-content;
-  margin: 0 auto;
-  grid-column-gap: 1em;
-  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */
