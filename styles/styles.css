@@ -69,6 +69,7 @@ h3 {
 
 .scroll-btn {
   position: fixed;
+  z-index: 99;
 }
 .scroll-btn.scroll-down-btn {
   right: 10%;
