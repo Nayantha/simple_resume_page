@@ -13,3 +13,4 @@ function scrollFunction(){
         scroll_down_btn.style.display = "none";
     }
 }
+window.onscroll = ()=> scrollFunction()
