@@ -10,9 +10,13 @@ header {
   background-color: black;
 
   ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
     li {
       a {
-        color: white
+        color: white;
       }
     }
   }
