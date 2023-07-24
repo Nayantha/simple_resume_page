@@ -76,8 +76,14 @@ header ul {
   align-items: center;
   padding: 1em 0;
 }
+header ul li {
+  position: relative;
+}
 header ul li a {
   color: white;
+}
+header ul li a:hover {
+  font-weight: bold;
 }
 
 section#education {

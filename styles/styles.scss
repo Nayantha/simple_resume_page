@@ -15,8 +15,12 @@ header {
     align-items: center;
     padding: 1em 0;
     li {
+      position: relative;
       a {
         color: white;
+        &:hover {
+          font-weight: bold;
+        }
       }
     }
   }
