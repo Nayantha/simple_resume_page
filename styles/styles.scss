@@ -7,14 +7,14 @@
 }
 
 .scroll-btn {
-  position: absolute;
+  position: fixed;
   &.scroll-down-btn{
     right: 10%;
     bottom: 10%;
   }
   &.scroll-up-btn{
     right: 10%;
-    top: 110%;
+    top: 10%;
   }
 }
 
