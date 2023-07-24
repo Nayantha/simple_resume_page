@@ -82,6 +82,8 @@ section#skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 2em;
+  max-height: 300px;
+  overflow: scroll;
 }
 section#skills .skill-title {
   position: relative;

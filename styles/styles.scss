@@ -31,6 +31,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2em;
+    max-height: 300px;
+    overflow: scroll;
 
     .skill-title {
       position: relative;
