@@ -74,6 +74,10 @@ h3 {
   right: 10%;
   bottom: 10%;
 }
+.scroll-btn.scroll-up-btn {
+  right: 10%;
+  top: 110%;
+}
 
 header {
   background-color: black;
