@@ -67,6 +67,10 @@ h3 {
   height: 300px;
 }
 
+.scroll-btn {
+  position: absolute;
+}
+
 header {
   background-color: black;
 }
