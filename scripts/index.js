@@ -8,9 +8,9 @@ scroll_up_btn.addEventListener("click", ()=>{
 })
 function scrollFunction(){
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-        scroll_down_btn.style.display = "block";
+        scroll_up_btn.style.display = "block";
     } else {
-        scroll_down_btn.style.display = "none";
+        scroll_up_btn.style.display = "none";
     }
 }
 window.onscroll = ()=> scrollFunction()
