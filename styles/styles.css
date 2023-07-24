@@ -68,7 +68,7 @@ h3 {
 }
 
 .scroll-btn {
-  position: fixed;
+  position: absolute;
 }
 .scroll-btn.scroll-down-btn {
   right: 10%;
@@ -76,7 +76,7 @@ h3 {
 }
 .scroll-btn.scroll-up-btn {
   right: 10%;
-  top: 10%;
+  top: 110%;
 }
 
 header {
