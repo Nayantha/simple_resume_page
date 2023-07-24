@@ -9,7 +9,6 @@
 .scroll-btn {
   position: fixed;
   z-index: 99;
-  display: none;
   &.scroll-down-btn{
     right: 10%;
     bottom: 10%;
@@ -17,6 +16,7 @@
   &.scroll-up-btn{
     right: 10%;
     top: 10%;
+    display: none;
   }
 }
 
