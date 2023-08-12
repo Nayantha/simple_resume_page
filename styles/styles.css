@@ -146,6 +146,7 @@ section#projects ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
   grid-gap: 25px;
+  padding-bottom: 10px;
 }
 section#projects ul li {
   max-width: 450px;
