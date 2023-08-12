@@ -166,6 +166,7 @@ section#projects ul li .project_title .github_link:hover {
 }
 section#projects ul li .languages ul {
   display: flex;
+  flex-wrap: wrap;
 }
 section#projects ul li .languages ul li {
   border: none;
