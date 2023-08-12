@@ -1,5 +1,8 @@
 @import "reset";
 
+body {
+  overflow-x: hidden;
+}
 .profile-pic {
   img {
     height: 300px;

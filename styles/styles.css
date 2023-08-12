@@ -63,6 +63,10 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .profile-pic img {
   height: 300px;
 }
