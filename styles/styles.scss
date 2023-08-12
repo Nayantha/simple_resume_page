@@ -93,6 +93,7 @@ section {
     ul {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
+      grid-gap: 25px;
 
       li {
         max-width: 450px;
