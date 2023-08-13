@@ -1,4 +1,5 @@
 @import "reset";
+
 html {
   scroll-behavior: smooth;
 }
@@ -28,9 +29,11 @@ body {
     display: none;
   }
 }
+
 a:hover {
   border-bottom: 1px solid black;
 }
+
 header {
   background-color: black;
 
@@ -45,6 +48,7 @@ header {
 
       a {
         color: white;
+
         &:hover {
           border-bottom: 1px solid white;
         }
@@ -121,6 +125,7 @@ section {
 
     a {
       color: white;
+
       &:hover {
         border-bottom: 1px solid white;
       }
@@ -163,14 +168,17 @@ section {
       }
     }
   }
+
   &#contact {
     ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
+
       li {
         display: flex;
         align-items: center;
+
         i {
           padding-inline: 10px;
         }
