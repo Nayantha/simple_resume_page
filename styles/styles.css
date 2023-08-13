@@ -100,9 +100,6 @@ header ul li {
 header ul li a {
   color: white;
 }
-header ul li a:hover {
-  font-weight: bold;
-}
 
 section#bio {
   display: grid;
