@@ -197,5 +197,8 @@ section#projects ul li .languages ul li {
   border: none;
   padding: 0 15px;
 }
+section#contact li i {
+  padding-inline: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
