@@ -1,5 +1,6 @@
 @import "reset";
 
+
 body {
   overflow-x: hidden;
 }
@@ -25,7 +26,9 @@ body {
     display: none;
   }
 }
-
+a:hover {
+  border-bottom: 1px solid black;
+}
 header {
   background-color: black;
 
@@ -40,7 +43,9 @@ header {
 
       a {
         color: white;
-
+        &:hover {
+          border-bottom: 1px solid white;
+        }
       }
     }
   }
@@ -114,6 +119,9 @@ section {
 
     a {
       color: white;
+      &:hover {
+        border-bottom: 1px solid white;
+      }
     }
 
     ul {
@@ -137,11 +145,6 @@ section {
           justify-content: space-between;
           padding-bottom: 0.5em;
 
-          .github_link {
-            &:hover {
-              border-bottom: 1px solid black;
-            }
-          }
         }
 
         .languages {
