@@ -107,6 +107,7 @@ header ul li a:hover {
 section#bio {
   display: grid;
   grid-template-areas: "img bio";
+  align-items: center;
 }
 section#bio .profile-pic {
   grid-area: img;

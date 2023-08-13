@@ -53,6 +53,7 @@ section {
   &#bio {
     display: grid;
     grid-template-areas: "img bio";
+    align-items: center;
 
     .profile-pic {
       grid-area: img
