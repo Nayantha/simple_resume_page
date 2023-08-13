@@ -114,6 +114,8 @@ section#bio .profile-pic {
 }
 section#bio .bio-text {
   grid-area: bio;
+  padding: 0 50px;
+  font-weight: bolder;
 }
 section#education {
   background-color: black;
