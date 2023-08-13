@@ -104,6 +104,16 @@ header ul li a:hover {
   font-weight: bold;
 }
 
+section#bio {
+  display: grid;
+  grid-template-areas: "img bio";
+}
+section#bio .profile-pic {
+  grid-area: img;
+}
+section#bio .bio-text {
+  grid-area: bio;
+}
 section#education {
   background-color: black;
   color: white;

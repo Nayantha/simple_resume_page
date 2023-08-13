@@ -3,6 +3,7 @@
 body {
   overflow-x: hidden;
 }
+
 .profile-pic {
   img {
     height: 300px;
@@ -12,11 +13,13 @@ body {
 .scroll-btn {
   position: fixed;
   z-index: 99;
-  &.scroll-down-btn{
+
+  &.scroll-down-btn {
     right: 10%;
     bottom: 10%;
   }
-  &.scroll-up-btn{
+
+  &.scroll-up-btn {
     right: 10%;
     top: 10%;
     display: none;
@@ -31,10 +34,13 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 1em 0;
+
     li {
       position: relative;
+
       a {
         color: white;
+
         &:hover {
           font-weight: bold;
         }
@@ -45,6 +51,15 @@ header {
 
 section {
   &#bio {
+    display: grid;
+    grid-template-areas: "img bio";
+
+    .profile-pic {
+      grid-area: img
+    }
+    .bio-text {
+      grid-area: bio;
+    }
   }
 
   &#education {
@@ -87,9 +102,11 @@ section {
   &#projects {
     background-color: black;
     color: white;
+
     a {
       color: white;
     }
+
     ul {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
