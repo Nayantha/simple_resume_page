@@ -109,6 +109,12 @@ section#bio {
   grid-template-areas: "img bio";
   align-items: center;
 }
+@media (max-width: 660px) {
+  section#bio {
+    grid-template-areas: "img" "bio";
+    justify-items: center;
+  }
+}
 section#bio .profile-pic {
   grid-area: img;
 }
@@ -116,6 +122,11 @@ section#bio .bio-text {
   grid-area: bio;
   padding: 0 50px;
   font-weight: bolder;
+}
+@media (max-width: 660px) {
+  section#bio .bio-text {
+    padding: 50px;
+  }
 }
 section#education {
   background-color: black;

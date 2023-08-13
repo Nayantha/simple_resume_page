@@ -54,14 +54,23 @@ section {
     display: grid;
     grid-template-areas: "img bio";
     align-items: center;
+    @media (max-width: 660px) {
+      grid-template-areas: "img"
+                           "bio";
+      justify-items: center;
+    }
 
     .profile-pic {
       grid-area: img
     }
+
     .bio-text {
       grid-area: bio;
       padding: 0 50px;
       font-weight: bolder;
+      @media (max-width: 660px) {
+        padding: 50px;
+      }
     }
   }
 
